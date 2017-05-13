@@ -1,0 +1,8 @@
+*.pyc
+*~
+*cred.py
+wiki/node_modules/*
+*.sqlite3
+*.log
+*/migrations/*
+*.log

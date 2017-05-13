@@ -1,0 +1,179 @@
+name,definition,short_definition,source,equation
+OCOn%,"On-Ice Corsi On-Goal Percentage; The percentage of on-ice shot attempts (on goal, missed, or blocked) that are shots on goal.",On-Ice Corsi On-Goal Percentage,,{ SF } / { CF } * 100
+SCA,"Scoring Chances Against; The number of scoring chances for the opposing team. For players, calculated using on-ice events.",SCA,Calculated,
+OCAOn%,"On-Ice Corsi Against On-Goal Percentage; The percentage of on-ice shot attempts (on goal, missed, or blocked) by the opposing team that are shots on goal.",On-Ice Corsi Against On-Goal Percentage,,{ SA } / { CA } * 100
+SCF%Rel,Relative Scoring Chance percentage; The player's on-ice SCF% minus the player's off-ice SCF%.,,,
+FF%,"Fenwick percentage; The percentage of total unblocked shot attempts (on goal or missed) taken by the team. For players, calculated using on-ice events.",Fenwick Percentage,,{ FF } / ({ FF } + { FA }) * 100
+SF%,"Shot Percentage; The percentage of total shots on goal taken by the team. For players, calculated using on-ice events.",Shot Percentage,,{ SF } / ({ SF } + { SA }) * 100
+CorT%,Corsi Quality of Teammates; The TOI-weighted CF% for a player's teammates.,,,
+C+/-,"Corsi plus-minus; plus-minus for shot attempts (on goal, missed, or blocked). For players, calculated using on-ice events.",Corsi Plus/Minus,,{ CF } - { CA }
+iFF,Individual Fenwick For; The number of unblocked shot attempts (on goal or missed) taken by an individual player.,Individual Fenwick For,Calculated,
+GF,"Goals For; The number of goals scored by the team. For players, calculated using on-ice events.",Goals For,The League,
+GA,"Goals Against; The number of goals scored by the opposing team. For players, calculated using on-ice events.",Goals Against,The League,
+GF60,"Goals For per 60; The rate of goals scored by the team per 60 minutes of play. For players, calculated using on-ice events.",Goals For per 60,,{ GF } / { TOI } * 60 * 60
+GA60,"Goals Against per 60; The rate of goals scored by the opposing team per 60 minutes of play. For players, calculated using on-ice events.",Goals Against per 60,,{ GA } / { TOI } * 60 * 60
+Sh%,Shooting percentage; The percentage of shots on goal that are goals.,Shooting Percentage,,{ GF } / { SF } * 100
+CP60,"Corsi Pace per 60; The sum of CF60 and CA60. For players, calculated using on-ice events.",Corsi Pace per 60,,{ CF60 } + { CA60 }
+SCA60,"Scoring Chances Against per 60; The rate of scoring chances for the opposing team per 60 minutes of play. For players, calculated using on-ice events.",Scoring Chances Against per 60,,{ SCA } / { TOI } * 60 * 60
+CF%Rel,Relative Corsi percentage; The player's on-ice CF% minus the player's off-ice CF%.,,,
+HSCA,"High-Danger Scoring Chances Against; The number of High-danger Scoring Chances for the opposing team. For players, calculated using on-ice events.",High-Danger Scoring Chances Against,Calculated,
+HSCF,"High-Danger Scoring Chances For; The number of High-danger Scoring Chances for the team. For players, calculated using on-ice events.",High-Danger Scoring Chances For,Calculated,
+F+/-,"Fenwick plus-minus; plus-minus for unblocked shot attempts (on goal or missed). For players, calculated using on-ice events.",Fenwick Plus/Minus,,{ FF } + { FA }
+FF60,"Fenwick For per 60; The rate of unblocked shot attempts (on goal or missed) taken by the team per 60 minutes of play. For players, calculated using on-ice events.",Fenwick For per 60,,{ FF } / { TOI } * 60 * 60
+SCF,"Scoring Chances For; The number of scoring chances for the team. For players, calculated using on-ice events.",Scoring Chances For,Calculated,
+AdSv%,"Adjusted save percentage; The weighted-average of Sv%H, Sv%M, and Sv%L, where the weights correspond to the league-average percentage of shots from each of those areas.",,,
+SA60,"Shots Against per 60; The rate of shots on goal taken by the opposing team per 60 minutes of play. For players, calculated using on-ice events.",Shots Against per 60,,{ SA } / { TOI } * 60 * 60
+HSC+/-,"High-Danger Scoring Chance plus-minus; Plus-minus for High-danger Scoring Chances. For players, calculated using on-ice events. Scoring Chance definitions here",High-Danger Scoring Chance Plus/Minus,,{ HSCF } + { HSCA }
+iSC,Individual Scoring Chances; The number of Scoring Chances recorded by an individual player.,Individual Scoring Chances,Calculated,
+iSF,Individual Shots For; The number of shots on goal taken by an individual player.,Individual Shots For,The League,
+SC+/-,"Scoring Chance plus-minus; Plus-minus for Scoring Chances. For players, calculated using on-ice events.",Scoring Chance Plus/Minus,,{ SCF } - { SCA }
+Sv%L,Low-Danger Save Percentage; Save percentage on low-percentage shots.,Low-Danger Save Percentage,,{ SvL } / ({ SvL } + { ShL }) * 100
+Sv%M,Medium-Danger Save Percentage; Save percentage on medium-percentage shots.,Medium-Danger Save Percentage,,{ SvM } / ({ SvM } + { ShM }) * 100
+tCA60,CA60 Quality of Teammates; The TOI-weighted CA60 for a player's teammates.,,,
+Sv%H,High-Danger Save Percentage; Save percentage on high-percentage shots.,High-Danger Save Percentage,,{ SvH } / ({ SvH } + { ShH }) * 100
+SF60,"Shots For per 60; The rate of shots on goal taken by the team per 60 minutes of play. For players, calculated using on-ice events.",Shots For per 60,,{ SF } / { TOI } * 60 * 60
+SCF60,"Scoring chances For per 60; The rate of scoring chances for the team per 60 minutes of play. For players, calculated using on-ice events.",Scoring chances For per 60,,{ SCF } / { TOI } * 60 * 60
+ZSO%,Offensive Zone Start Percentage; The percentage of all non-neutral zone faceoffs taken in the offensive zone.,Offensive Zone Start Percentage,,{ ZSO } / ({ ZSO } + { ZSD }) * 100
+cCF60,CF60 Quality of Competition; The TOI-weighted CF60 for a player's competition.,,,
+SF%Rel,Relative Shot percentage; The player's on-ice SF% minus the player's off-ice SF%.,,,
+PenD60,Penalty Differential per 60; Penalties drawn per 60 minutes of play minus penalties taken per 60 minutes of play.,Penalty Differential per 60,,{ PenD } / { TOI } * 60 * 60
+FA,"Fenwick Against; The number of unblocked shot attempts (on goal or missed) taken by the opposing team. For players, calculated using on-ice events.",Fenwick Against,,{ SA } + { MSA }
+cCA60,CA60 Quality of Competition; The TOI-weighted CA60 for a player's competition.,,,
+FF,"Fenwick For; The number of unblocked shot attempts (on goal or missed) taken by the team. For players, calculated using on-ice events.",Fenwick For,,{ SF } + { MSF }
+FA60,"Fenwick Against per 60; The rate of unblocked shot attempts (on goal or missed) taken by the opposing team per 60 minutes of play. For players, calculated using on-ice events.",Fenwick Against per 60,,{ FA } / { TOI } * 60 * 60
+S+/-,"Shots plus-minus; plus-minus for shots on goal. For players, calculated using on-ice events.",Shots Plus/Minus,,{ SF } - { SA }
+FP60,"Fenwick Pace per 60; The sum of FF60 and FA60. For players, calculated using on-ice events.",Fenwick Pace per 60,,{ FF60 } + { FA60 }
+OFOn%,On-Ice Fenwick On-Goal Percentage; The percentage of on-ice unblocked shot attempts (on goal or missed) that are shots on goal.,On-Ice Fenwick On-Goal Percentage,,{ SF } / { FF } * 100
+HSCF60,"High-Danger Scoring Chances For per 60; The rate of High-danger Scoring Chances for the team per 60 minutes of play. For players, calculated using on-ice events.",High-Danger Scoring Chances For per 60,,{ HSCF } / { TOI } * 60 * 60
+tCF60,CF60 Quality of Teammates; The TOI-weighted CF60 for a player's teammates.,,,
+Sv%,Save percentage; The percentage of shots on goal saved by the goaltender.,Save Percentage,,{ Sv } / { Sh } * 100
+CA,"Corsi Against; The number of shot attempts (on goal, missed, or blocked) taken by the opposing team. For players, calculated using on-ice events.",Corsi Against,,{ SA } + { MSA } + { BSF }
+CF,"Corsi For; The number of shot attempts (on goal, missed, or blocked) taken by the team. For players, calculated using on-ice events.",Corsi For,,{ SF } + { MSF } + { BSA }
+GF%Rel,Relative Goal percentage; The player's on-ice GF% minus the player's off-ice GF%.,,,
+PDO,"The sum of shooting percentage and save percentage. For players, calculated using on-ice events.",Shooting Percentage Plus Save Percentage,,{ Sh% } + { Sv% }
+G+/-,"Goal plus-minus; plus-minus for goals. For players, calculated using on-ice events.",Plus/Minus,,{ GF } + { GA }
+FenSh%,Fenwick Shooting Percentage; The percentage of unblocked shot attempts (on goal or missed) that are goals.,Fenwick Shooting Percentage,,{ GF } / { FF } * 100
+iCF,"Individual Corsi For; The number of shot attempts (on goal, missed, or blocked) taken by an individual player.",Individual Corsi For,,{ iSF } + { iMSF } + { iBSA }
+TOI,Time On Ice.,Time On Ice,The League,
+SA,"Shots Against; The number of shots on goal taken by the opposing team. For players, calculated using on-ice events.",Shots Against,The League,
+SF,"Shots For; The number of shots on goal taken by the team. For players, calculated using on-ice events.",Shots For,The League,
+CA60,"Corsi Against per 60; The rate of shot attempts (on goal, missed, or blocked) taken by the opposing team per 60 minutes of play. For players, calculated using on-ice events.",Corsi Against per 60,,{ CA } / { TOI } * 60 * 60
+HSCA60,"High-Danger Scoring Chances Against per 60; The rate of High-danger Scoring Chances for the opposing team per 60 minutes of play. For players, calculated using on-ice events.",High-Danger Scoring Chances Against per 60,,{ HSCA } / { TOI } * 60 * 60
+FenSv%,Fenwick Save Percentage; The percentage of unblocked shot attempts (on goal or missed) that are saved by the goaltender or miss the net.,Fenwick Save Percentage,,({ FF } - { GF }) / { FF } * 100
+HSCP60,"High-Danger Scoring Chance Pace per 60; The sum of HSCF60 and HSCA60. For players, calculated using on-ice events.",High-Danger Scoring Chance Pace per 60,,{ HSCF60 } + { HSCA60 }
+CF%,"Corsi percentage; The percentage of total shot attempts (on goal, missed, or blocked) taken by the team. For players, calculated using on-ice events.",Corsi Percentage,,{ CF } / ({ CF } + { CA })  * 100
+TOIT%,TOI Quality of Teammates; The TOI-weighted TOI% for a player's teammates.,,,
+SCP60,"Scoring Chance Pace per 60; The sum of SCF60 and SCA60. For players, calculated using on-ice events.",Scoring Chance Pace per 60,,{ SCF60 } + { SCA60 }
+AAV,Average Annual Value. The entire value of a player's contract divided by how many years there are in the contract.,Average Annual Value,,{ money } / { years }
+GF%,"Goal For Percentage; The percentage of total goals scored by the team. For players, calculated using on-ice events.",Goals For Percentage,,{ GF } / ({ GF } + { GA }) * 100
+CF60,"Corsi For per 60; The rate of shot attempts (on goal, missed, or blocked) taken by the team per 60 minutes of play. For players, calculated using on-ice events.",Corsi For per 60,,{ CF } / { TOI } * 60 * 60
+PenD,Penalty Differential; Penalties drawn minus penalties taken.,Penalty Differential,,{ penaltyFor } - { penaltyAgainst }
+TOIC%,TOI Quality of Competition; The TOI-weighted TOI% for a player's competition.,,,
+HSCF%,"High-Danger Scoring Chance Percentage; The percentage of total High-danger Scoring Chances belonging to the team. For players, calculated using on-ice events.",High-Danger Scoring Chance Percentage,,{ HSCF } / ({ HSCF } + { HSCA }) * 100
+SCF%,"Scoring Chance Percentage; The percentage of total scoring chances belonging to the team. For players, calculated using on-ice events.",Scoring Chance Percentage,,{ SCF } / ({ SCF } + { SCA }) * 100
+FF%Rel,Relative Fenwick percentage; The player's on-ice FF% minus the player's off-ice FF%.,,,
+ZSO%Rel,Relative Offensive Zone Start percentage; The player's on-ice ZSO% minus the player's off-ice ZSO%.,,,
+CorC%,Corsi Quality of Competition; The TOI-weighted CF% for a player's competition.,,,
+OFAOn%,On-Ice Fenwick Against On-Goal Percentage; The percentage of on-ice unblocked shot attempts (on goal or missed) by the opposing team that are shots on goal.,On-Ice Fenwick Against On-Goal Percentage,,{ SA }/ { FA } * 100
+HSCF%Rel,Relative Scoring Chance percentage; The player's on-ice HSCF% minus the player's off-ice HSCF%.,,,
+SC,"Taken from the original WAR-On-Ice:
+""First, recall our definition of 'danger zones' as broken into probability areas:
+Second, we’ve empirically tested for higher probabilities within these zones for two types of shots:
+
+Rebounds: Any shot that follows within 3 seconds of a blocked, missed or saved shot. All have measurably higher probabilities of success in each of the three zones.
+Rush shots: Any shot that follows within 4 seconds of any event in the shooting team’s neutral or offensive zones. This is based on David Johnson‘s definition, but the four second threshold gave general and statistically significant increases in probability.
+
+So, based on these measures, the average probability of a goal given the type and locations, and the consideration of team defense, we have these conditions for a 'scoring chance':
+
+In the low danger zone, unblocked rebounds and rush shots only.
+In the medium danger zone, all unblocked shots.
+In the high danger zone, all shot attempts (since blocked shots taken here may be more representative of more “wide-open nets”, though we don’t know this for sure.)
+These definitions are flexible but we feel they’re a reasonable starting point given all the data we have available. We’re open to changing it if we have sufficient numerical evidence.""
+
+Below is the function currently used to determine the scoring chance ""danger"" (2+=HSC, 1=SC, 0=LSC)
+
+See https://github.com/firstlinestats/fancystats/blob/master/fancystats/shot.py for more detailed information
+
+def scoring_chance(period, team, period_time, xcoord, ycoord, play_type,
+        ps_period=None, ps_team=None, ps_type=None, ps_period_time=None,
+        pp_period=None, pp_period_time=None, pp_xcoord=None):
+    is_rebound = rebound(period, team, period_time, ps_period, ps_team, ps_type, ps_period_time)
+    is_rush = rush(period, period_time, play_type, xcoord, pp_period, pp_period_time, pp_xcoord)
+    zone = danger_zone(xcoord, ycoord)
+    if zone == ""HIGH"":
+        danger = 3
+    elif zone == ""MEDIUM"":
+        danger = 2
+    else:
+        danger = 1
+    if is_rebound or is_rush:
+        danger += 1
+    if play_type == ""BLOCKED_SHOT"":
+        danger -= 1
+    /*if danger == 0:
+        danger = 1*/ // TODO: Maybe?
+    return zone, danger",Scoring Chance,WOI,See detailed
+HSC,"Taken from the original WAR-On-Ice:
+""First, recall our definition of 'danger zones' as broken into probability areas:
+Second, we’ve empirically tested for higher probabilities within these zones for two types of shots:
+
+Rebounds: Any shot that follows within 3 seconds of a blocked, missed or saved shot. All have measurably higher probabilities of success in each of the three zones.
+Rush shots: Any shot that follows within 4 seconds of any event in the shooting team’s neutral or offensive zones. This is based on David Johnson‘s definition, but the four second threshold gave general and statistically significant increases in probability.
+
+So, based on these measures, the average probability of a goal given the type and locations, and the consideration of team defense, we have these conditions for a 'scoring chance':
+
+In the low danger zone, unblocked rebounds and rush shots only.
+In the medium danger zone, all unblocked shots.
+In the high danger zone, all shot attempts (since blocked shots taken here may be more representative of more “wide-open nets”, though we don’t know this for sure.)
+These definitions are flexible but we feel they’re a reasonable starting point given all the data we have available. We’re open to changing it if we have sufficient numerical evidence.""
+
+Below is the function currently used to determine the scoring chance ""danger"" (2+=HSC, 1=SC, 0=LSC)
+
+See https://github.com/firstlinestats/fancystats/blob/master/fancystats/shot.py for more detailed information
+
+def scoring_chance(period, team, period_time, xcoord, ycoord, play_type,
+        ps_period=None, ps_team=None, ps_type=None, ps_period_time=None,
+        pp_period=None, pp_period_time=None, pp_xcoord=None):
+    is_rebound = rebound(period, team, period_time, ps_period, ps_team, ps_type, ps_period_time)
+    is_rush = rush(period, period_time, play_type, xcoord, pp_period, pp_period_time, pp_xcoord)
+    zone = danger_zone(xcoord, ycoord)
+    if zone == ""HIGH"":
+        danger = 3
+    elif zone == ""MEDIUM"":
+        danger = 2
+    else:
+        danger = 1
+    if is_rebound or is_rush:
+        danger += 1
+    if play_type == ""BLOCKED_SHOT"":
+        danger -= 1
+    /*if danger == 0:
+        danger = 1*/ // TODO: Maybe?
+    return zone, danger",High-Danger Scoring Chance,Calculated,
+SvL,Low-Danger Saves; The number of saves a goalie makes that are considered low-danger,Low-Danger Saves,Calculated,
+SvM,Medium-Danger Saves; The number of saves a goalie makes that are considered medium-danger,Medium-Danger Saves,Calculated,
+SvH,High-Danger Saves; The number of saves a goalie makes that are considered high-danger,High-Danger Saves,Calculated,
+penaltyFor,Penalties For; Penalties committed by the player/team.,Penalties For,The League,
+penaltyAgainst,Penalties Against; Penalties commited/drawn against the team/player,Penalties Against,The League,
+Sv,Saves; Saves made by the team/goalie,Saves,The League,
+BSA,Blocked Shots Against; Shots made by the team/player that were blocked by the opposing team.,Blocked Shots Against,The League,
+ZSD,Defensive Zone Starts; The number of faceoffs taken in the defensive zone.,Defensive Zone Starts,The League,
+iMSF,Individual Missed Shots For; The number of mised (not on goal or blocked) shots taken by an individual player.,Individual Missed Shots For,The League,
+Sh,Shots; Shots taken,Shots,The League,
+iBSF,Individual Shots Blocked; The number of shots blocked by an individual player.,Individual Shots Blocked,The League,
+iBSA,Individual Shots Blocked Against; The number of shots taken by an individual player that are blocked.,Individual Shots Blocked Against,The League,
+ShL,Low-Danger Shots; The number of shots that are considered low-danger,Low-Danger Shots,Calculated,
+ShM,Medium-Danger Shots; The number of shots that are considered medium-danger,Medium-Danger Shots,Calculated,
+ShH,High-Danger Shots; The number of shots that are considered high-danger,,,
+MSF,Missed Shots For; The number of missed shots for a team,Missed Shots For,The League,
+BSF,Blocked Shots For; The number of shots taken by a team that are blocked,BSF,The League,
+ZSO,Offensive Zone Starts; The number of faceoffs taken in the offensive zone.,Offensive Zone Starts,The League,
+MSA,Missed Shots Against; The number of missed shots by the opposing team,Missed Shots Against,The League,
+FOW,Faceoff Wins; The number of faceoffs won,Faceoff Wins,The League,
+FOL,Faceoff Losses; The number of faceoffs lost,Faceoff Losses,The League,
+HitFor,Hits For; The number of hits made,Hits For,The League,
+HitAgainst,Hits Against; The number of hits made on the team/player,Hits Against,The League,
+iHSC,Individual High-Danger Scoring Chances; The number of high danger scoring chances made by the player,Individual High-Danger Scoring Chances,Calculated,
+ZSN,Neutral Zone Starts; The number of zone starts that are taken in the neutral zone,Neutral Zone Starts,The League,
+CorSh%,Corsi Shooting Percentage; The percentage of shot attempts that are goals.,Corsi Shooting Percentage,,{ GF } / { CF } * 100
+CorSv%,Corsi Save Percentage; The percentage of shot attempts that are saved by the goaltender,Corsi Save Percentage,,{ Sv } / { CA } * 100
