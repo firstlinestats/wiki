@@ -16,12 +16,13 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from terms.viewsets import DefinitionViewSet
+from terms.viewsets import DefinitionViewSet, EquationViewSet
 
 from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'definitions', DefinitionViewSet)
+router.register(r'equations', EquationViewSet)
 
 urlpatterns = [
     url(r'^api/', include(router.urls)),

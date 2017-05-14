@@ -7,3 +7,9 @@ class DefinitionSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Definition
         fields = ('name', 'definition', 'short_definition', 'source', 'equation')
+
+
+class EquationSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Definition
+        fields = ('equation')
