@@ -3,3 +3,4 @@ djangorestframework
 markdown
 django-filter
 django-pipeline
+django-pipeline-browserify

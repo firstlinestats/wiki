@@ -6,3 +6,4 @@ wiki/node_modules/*
 *.log
 */migrations/*
 *.log
+wiki/terms/migrations/0001_initial.py
